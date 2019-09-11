@@ -1,0 +1,20 @@
+.searchForm {
+  display: block;
+  margin-top: 50px;
+}
+
+.searchForm div {
+  margin: 10px 0;
+}
+
+.searchForm label {
+  margin: 0 10px;
+}
+
+.searchForm .dateTo {
+  padding-right: 20px;
+}
+
+.searchForm button {
+  margin-top: 20px;
+}
