@@ -7,7 +7,7 @@ const useFetch = url => {
   async function fetchData() {
     try {
       let response = await fetch(
-        `http://localhost:8080/api/currency/fx_rates?currency=AUD&dateFrom=2019-09-03&dateTo=2019-09-11`
+        `http://localhost:8080/api/currency/fxrates?currency=AUD&dateFrom=2019-09-03&dateTo=2019-09-11`
       );
       const json = await response.json();
       if (!response.ok) {
